@@ -66,6 +66,7 @@ Example:
   "agent_command": "pwd",
   "output": "/c/Users/perve/OneDrive/Pictures/Agentic AI for Devops screenshots"
 }
+```
 
 This means:
 The AI ran the command pwd and remembered the result.
@@ -83,9 +84,9 @@ This same concept is used in:
 - Security AI systems
 - AutoGPT, CrewAI, LangGraph
 
-Without memory:
+## Without memory:
 - AI is just a chatbot.
-With memory:
+## With memory:
 - AI becomes an agent.
 
 ---
@@ -93,7 +94,7 @@ With memory:
 What I learned in this lesson
 ---
 
-From this lesson, I learned:
+## From this lesson, I learned:
 
 - How AI can use system tools
 - How to add safety rules
