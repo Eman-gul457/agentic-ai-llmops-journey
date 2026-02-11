@@ -1,4 +1,5 @@
-# Lesson 5 – Learning Notes: Workflows vs Agents
+# Lesson 5 – Learning Notes: Workflows vs Agents – AI Agents: Types & When to Use Them
+
 
 ## What I thought before
 Before this lesson, I thought:
@@ -92,3 +93,65 @@ This lesson changed how I see AI.
 Now I understand:
 The future of AI is not just chat.
 The future of AI is systems that can think, plan, and act.
+
+---
+
+## Types of AI Agents
+
+### 1. Simple Reflex Agent
+- Uses simple if–then rules.
+- No memory, no learning.
+- Reacts only to current input.
+- Example: Thermostat.
+
+### 2. Model-Based Reflex Agent
+- Has internal memory (state).
+- Tracks how the environment changes.
+- Makes better decisions using past info.
+- Example: Robot vacuum.
+
+### 3. Goal-Based Agent
+- Works based on defined goals.
+- Simulates future outcomes.
+- Chooses actions that reach the goal.
+- Example: Self-driving car.
+
+### 4. Utility-Based Agent
+- Chooses best possible outcome.
+- Uses utility score (preference/value).
+- Optimizes multiple factors.
+- Example: Delivery drone.
+
+### 5. Learning Agent
+- Learns from experience.
+- Improves using feedback (rewards).
+- Most powerful but slow and data-heavy.
+- Example: Chess AI.
+
+---
+
+## When to Use AI Agents
+
+### AI System Spectrum
+- **Simple AI features:** one-shot tasks (summarization, translation)
+- **Workflows:** structured multi-step processes
+- **Agents:** complex, adaptive reasoning
+
+### 4-Question Framework
+1. Is the task ambiguous? → Use agent  
+2. Is the value worth the cost? → Agents are expensive  
+3. Does the agent meet key skills? → Test first  
+4. What if it makes mistakes? → Use only if risk is manageable  
+
+### When NOT to Use Agents
+- High-volume low-value tasks
+- Real-time systems
+- Zero-error systems (medical, security)
+- Highly regulated environments
+
+### Best Practices
+- Start simple
+- Use human-in-the-loop
+- Add logging and monitoring
+- Deploy in phases
+
