@@ -1,14 +1,11 @@
-# Lesson 5 – Generative AI vs Agentic AI
+# Lesson 5 –  Agentic AI
 
 This day focuses on understanding the difference between:
 - Generative AI
 - Structured workflows
 - Autonomous (Agentic) AI systems
 
-I learned these concepts from:
-- 1 podcast
-- 2 videos
-- 1 reading from IBM Cognitive Class
+
 
 Course:
 https://cognitiveclass.ai/learn/agentic-ai-hands-on
@@ -71,6 +68,17 @@ Examples:
 - Research agents
 - AutoGPT
 - Personal AI assistants
+  
+---
+
+### Types of Agents
+- Simple Reflex: rule-based, no memory  
+- Model-Based: has memory  
+- Goal-Based: plans using goals  
+- Utility-Based: chooses best outcome  
+- Learning Agent: learns from experience  
+
+
 
 ---
 
@@ -81,3 +89,6 @@ Agentic AI achieves goals.
 
 Real-world systems are usually hybrid:
 Workflows for reliability + Agents for intelligence.
+
+AI agents should be used only for complex and adaptive tasks.  
+For simple or predictable problems, workflows or basic AI tools are more efficient and safer.
